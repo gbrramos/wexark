@@ -15,7 +15,7 @@
 <p>É bom notar que as 3 rotas tem o prefixo /api antes do nome</p>
 <p>Por ser uma API RESTful, para cada rota é preciso usar os metodos HTTP (GET para pegar, POST para cadastrar, PUT para editar e DELETE para deletar).</p>
 <p>Para se pegar ou editar um item específico do banco de dados a rota teria o sufixo ID no final</p>
-<p>Ficaria por exemplo: '/api/pedidos/1' (Metodo GET para exibir-se os dados, PUT para editar o pedido de ID 1 ou DELETE para deletar o pedido de ID 1)</p>
+<p>Ficaria por exemplo: '/api/pedidos/1' (Metodo GET para exibir-se os dados do pedido de ID 1, PUT para editar o pedido de ID 1 ou DELETE para deletar o pedido de ID 1)</p>
 <p>No caso, o 1 seria o ID do pedido</p>
 <hr>
 <h3>Parâmetros</h3>
