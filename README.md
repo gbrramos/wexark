@@ -64,4 +64,4 @@
 ```
 
 <p>Depois disso, é só usar as rotas em combinação com os métodos HTTP para fazer as operações de um CRUD.</p>
-<p>Atenção: O email só funcionará caso o sistema esteja rodando em um servidor com o serviço de email configurado. </p>
+<p>Atenção: O sistema de envio de emails só funcionará caso o sistema esteja rodando em um servidor com o serviço de email configurado. </p>
