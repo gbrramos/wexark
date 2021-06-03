@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class PedidoPastel extends Model
 {
+    use HasFactory;
+
     protected $table = 'pedido_pastels';
 
     protected $fillable = [

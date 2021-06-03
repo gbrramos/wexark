@@ -19,6 +19,7 @@ class CreateClientesTable extends Migration
             $table->string('email');
             $table->string('data_nascimento');
             $table->string('endereco');
+            $table->string('telefone');
             $table->string('complemento')->nullable();
             $table->string('bairro');
             $table->string('cep');

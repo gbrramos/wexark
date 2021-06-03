@@ -10,7 +10,7 @@ class PastelsController extends Controller
 {
     public function index()
     {
-        return Pastel::where('status','active')->all();
+        return Pastel::where('status','active')->get();
     }
 
     public function store(Request $request)

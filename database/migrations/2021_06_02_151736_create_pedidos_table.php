@@ -16,6 +16,7 @@ class CreatePedidosTable extends Migration
         Schema::create('pedidos', function (Blueprint $table) {
             $table->id();
             $table->string('data_criacao');
+            $table->string('cliente_id');
             $table->enum('status',['active','removed']);
             $table->timestamps();
         });
