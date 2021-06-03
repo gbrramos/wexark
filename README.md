@@ -35,7 +35,7 @@
 <ul>
     <li>cliente_id (a API espera que o software externo identifique o ID do cliente) </li>
     <li>data_criacao</li>
-    <li>pastel (este pode ser um array com vários pasteis)</li>
+    <li>pastel (aqui é inserido o ID do pastel, pode ser um array com o vários pasteis)</li>
 </ul> 
 <hr>
 <p><strong>Para se cadastrar ou editar um pastel é necessário passar os seguintes parâmetros</strong></p>
