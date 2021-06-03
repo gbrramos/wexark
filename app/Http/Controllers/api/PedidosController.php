@@ -43,7 +43,7 @@ class PedidosController extends Controller
 
         // dd($pedidoFinal);
         Mail::send('email', $pedidoFinal, function ($m) use ($cliente) {
-            $m->from('gabriel.olv2002@gmail.com', 'Pastelaria WexArk');
+            $m->from('pastelaria@gmail.com', 'Pastelaria WexArk');
             $m->to($cliente['email'], 'Pastelaria WexArk')->subject('Pedido Efetuado');
         });
     }
@@ -96,7 +96,7 @@ class PedidosController extends Controller
         $pedidoFinal['email'] = $cliente['email'];
         $pedidoFinal['telefone'] = $cliente['telefone'];
         Mail::send('email', $pedidoFinal, function ($m) use ($cliente) {
-            $m->from('gabriel.olv2002@gmail.com', 'Pastelaria WexArk');
+            $m->from('pastelaria@gmail.com', 'Pastelaria WexArk');
             $m->to($cliente['email'], 'Pastelaria WexArk')->subject('Pedido Efetuado');
         });
     }
